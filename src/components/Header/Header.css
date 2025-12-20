@@ -1,0 +1,143 @@
+.home-header {
+    height: 80vh;
+    width: 97%;
+    margin: 30px auto;
+    padding-top: 5%;
+    position: relative;
+    overflow: hidden;          /* Important for video clipping */
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* Background Video */
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -2;
+}
+
+/* Optional dark overlay for readability */
+.home-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: -1;
+}
+
+/* ================== CONTENT ================== */
+
+.header-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5vw;
+    max-width: 70%;
+    left: 3vw;
+    animation: fadeIn 3s;
+    z-index: 1;
+}
+
+.header-content h2 {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: max(5vw, 30px);
+}
+
+.header-content h2 span {
+    font-weight: 600;
+    color: rgb(205, 219, 224);
+}
+
+.header-content p {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.5vw;
+    backdrop-filter: blur(2px);
+}
+
+.header-content button {
+    border: none;
+    color: rgb(15, 37, 58);
+    background-color: white;
+    font-weight: 900;
+    padding: 12px 15px;
+    margin-top: 40px;
+    font-size: max(1vw, 13px);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header-content button:hover {
+    color: white;
+    background-color: rgb(15, 37, 58);
+    transform: scale(1.1);
+    font-weight: 600;
+}
+
+/* ================== ANIMATION ================== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ================== RESPONSIVE ================== */
+
+@media (max-width: 1024px) {
+    .home-header {
+        height: 70vh;
+        width: 80%;
+    }
+
+    .header-content p {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-header {
+        height: 60vh;
+        width: 90%;
+    }
+
+    .header-content {
+        max-width: 85%;
+    }
+
+    .header-content p {
+        font-size: 14px;
+    }
+}
+
+/* Mobile: disable video for performance */
+@media (max-width: 480px) {
+    .home-header {
+        height: 50vh;
+        width: 95%;
+        border-radius: 15px;
+    }
+
+    .bg-video {
+        display: none;
+    }
+
+    .home-header {
+        background: url('/image3.jpg') no-repeat center center;
+        background-size: cover;
+    }
+}
