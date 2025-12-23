@@ -1,36 +1,55 @@
+.slider-section{ 
+  background-color: transparent;
+  box-shadow: none;
+}
 .slider-container {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .slider {
-    position: relative;
-  }
-  
-  .slider-image {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-  }
-  
-  .slider-details {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 18px;
-  }
-  
-  .slider-price {
-    margin: 0;
-    font-weight: bold;
-    color: white;
-  }
-  
+  width: 100%;          /* take full width of parent */
+  overflow: hidden;
+  border-radius: 15px;  /* keeps nice rounded corners */
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+}
+
+.slider-card {
+  min-width: 100%;      /* ensures one slide at a time */
+  position: relative;
+  overflow: hidden;
+  border-radius: px;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;         /* make it take full container height */
+  max-height: 400px;    /* adjust as needed for design */
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.slider-card:hover .slider-image {
+  transform: scale(1.05);
+}
+
+.slider-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  color: white;
+  text-align: left;
+}
+
+.slider-price {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.slider-location {
+  font-size: 1rem;
+  margin: 5px 0 0;
+}

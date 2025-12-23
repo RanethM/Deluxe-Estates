@@ -3,15 +3,15 @@
 		{
 			"id": "prop1",
 			"type": "House",
-			"bedrooms": 3,
-			"price": 750000,
+			"bedrooms": 8,
+			"price": 18700000,
 			"tenure": "Freehold",
-			"description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
-			"shortdescription":"A charming three-bedroom semi-detached family home near Petts Wood station, featuring spacious living areas, a conservatory, and a well-maintained garden",
-			"location": "Petts Wood Road, Petts Wood,Orpington BR5",
-			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.6744206617686!2d0.07950867687345958!3d51.39066161922436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1703920845483!5m2!1sen!2slk",
+			"description": "Set behind grand iron gates on one of Britain’s most prestigious private estates, this property extends to over 13,400 sq ft. The newly built mansion perfectly combines English architecture and cutting-edge design. Every inch of the property, from its soaring ceilings and marble floors to the hand-finished cabinetry and bespoke detailing, has been thoroughly considered. \n Unfolding across two floors, the house has been designed with a sense of volume, light and flow. The entrance sets the tone with its palatial proportions, a marble staircase and coffered ceilings. From here, a sequence of reception rooms unfurls, formal drawing and dining rooms, a fully fitted study, a cinema room, and a vast kitchen and family room that serves as the heart of the home.",
+			"shortdescription":"A newly built 13,400 sq ft mansion on a prestigious private estate, combining classic English architecture with refined modern luxury.",
+			"location": "East Road, St George's Hill KT13",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2053.9220276615974!2d-0.43679937643992056!3d51.35556119656016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876758dfb64b3d9%3A0x2cdc46c0e48ae8e0!2sEast%20Rd%2C%20Weybridge%2C%20UK!5e1!3m2!1sen!2slk!4v1766325752137!5m2!1sen!2slk",
 			"picture": "images/prop1/prop11.webp",
-			"postalCode": "BR5",
+			"postalCode": "KT13",
 			"url": "properties/prop1.html",
 			"added": {
 				"month": "October",
@@ -19,25 +19,26 @@
 				"year": 2022
 			},
 			"pictures": [
-				"/PropImages/prop1/11.jpg",
-				"/PropImages/prop1/12.jpg",
-				"/PropImages/prop1/13.jpg",
-				"/PropImages/prop1/14.jpg",
-				"/PropImages/prop1/15.jpg"
+				"/images/prop1/prop11.webp",
+				"/images/prop1/prop12.webp",
+				"/images/prop1/prop13.webp",
+				"/images/prop1/prop14.webp",
+				"/images/prop1/prop15.webp", 
+				"/images/prop1/prop16.webp"
 			]
 		},
 		{
 			"id": "prop2",
 			"type": "House",
-			"bedrooms": 2,
-			"price": 399995,
+			"bedrooms": 7,
+			"price": 15950000,
 			"tenure": "Freehold",
-			"description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"shortdescription":"A modern two-bedroom garden flat with open-plan living, bi-fold doors to a private courtyard, and two bathrooms, perfect for contemporary living.",
-			"location": "Crofton Road Orpington BR2,",
-			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.6140724237566!2d0.06955147687262565!3d51.37339112048395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6ac2bdc8d1%3A0xb0dde3c09939f924!2sCrofton%20Rd%2C%20Orpington%20BR6%2C%20UK!5e0!3m2!1sen!2slk!4v1703920638856!5m2!1sen!2slk",
+			"description": "With state-of-the-art amenities and breath-taking views of Regents Park, this property is a rare gem. The home boasts a spacious kitchen/breakfast room, outfitted with high-end appliances and an abundance of storage, perfect for both intimate family meals and entertaining on a grand scale. The principal bedroom suite features a private dressing room and a luxurious en-suite bathroom, while multiple well proportioned bedrooms provide flexibility for family or guest use.<br>Designed for leisure and relaxation, the dedicated leisure floor includes a private cinema room, a gym/games room, a sauna, and a steam room. A spectacular indoor swimming pool adds to the sense of indulgence. The property is also serviced by an internal lift, ensuring effortless access to all floors.",
+			"shortdescription":"An imposing white stucco-fronted residence located on the prestigious Prince Albert Road, offering lateral family accommodation, spanning over 8,000 sq. Ft.",
+			"location": "Prince Albert Road, Regents Park NW1",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.2613077363847!2d-0.1590386!3d51.536415399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ac237ed30ff%3A0xad09c26699977dc6!2sPrince%20Albert%20Rd%2C%20London%2C%20UK!5e1!3m2!1sen!2slk!4v1766326390311!5m2!1sen!2slk",
 			"picture": "images/prop2/prop21.webp",
-			"postalCode": "BR2",
+			"postalCode": "NW1",
 			"url": "properties/prop2.html",
 			"added": {
 				"month": "September",
@@ -45,26 +46,26 @@
 				"year": 2022
 			},
 			"pictures": [
-				"/PropImages/prop2/21.jpg",
-				"/PropImages/prop2/22.jpg",
-				"/PropImages/prop2/23.jpg",
-				"/PropImages/prop2/24.jpg",
-				"/PropImages/prop2/25.jpg",
-				"/PropImages/prop2/26.jpg"
+				"/images/prop2/prop21.webp",
+				"/images/prop2/prop22.webp",
+				"/images/prop2/prop23.webp",
+				"/images/prop2/prop24.webp",
+				"/images/prop2/prop25.webp",
+				"/images/prop2/prop26.webp"
 			]
 		},
 		{
 			"id": "prop3",
 			"type": "House",
-			"bedrooms": 1,
-			"price": 250000,
+			"bedrooms": 4,
+			"price": 374995,
 			"tenure": "Leasehold",
-			"description": "A stylish one-bedroom apartment with a modern open-plan kitchen and living area. The property features large windows offering plenty of natural light. The bedroom is spacious, and the bathroom is fitted with contemporary fixtures. Conveniently located near public transportation and local amenities.",
-			"shortdescription":"A stylish one-bedroom apartment with a bright open-plan layout, modern fixtures, and convenient access to public transportation and amenities.",
-			"location": "High Street, Bromley BR1",
-			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.195649608365!2d-0.02028240734141828!3d51.527971236542605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d444c42bcf5%3A0x85bffc5b6e2d05dd!2sBromley%20High%20St.%2C%20London%2C%20UK!5e0!3m2!1sen!2slk!4v1703920917458!5m2!1sen!2slk",
-			"picture": "/PropImages/prop3/31.jpg",
-			"postalCode": "BR1",
+			"description": "This home has a delightfully traditional feel from the outside, while inside, the large open-plan kitchen with its dining and family areas is designed very much for modern living. French doors gives access to the garden and there is also a separate utility. The bright and airy lounge, with an attractive bay window, is the perfect place to relax. Upstairs are four double bedrooms, the main bedroom with en suite, and a family bathroom completing this home.",
+			"shortdescription":"A beautifully traditional home with a bright modern interior, featuring open-plan living, four double bedrooms, and seamless access to the garden.",
+			"location": "\"Woodlark\" at Buttercup Drive, Newcastle Upon Tyne NE15",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1883.2989751248608!2d-1.7679198231659483!3d54.998245672814214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487dd91276d94d2b%3A0x8d2bbfa69f051a96!2sDavid%20Wilson%20Homes%20-%20Meadow%20Hill!5e1!3m2!1sen!2slk!4v1766327438041!5m2!1sen!2slk",
+			"picture": "images/prop3/prop31.webp",
+			"postalCode": "NE15",
 			"url": "properties/prop3.html",
 			"added": {
 				"month": "November",
@@ -72,25 +73,25 @@
 				"year": 2021
 			},
 			"pictures": [
-				"/PropImages/prop3/31.jpg",
-				"/PropImages/prop3/32.jpg",
-				"/PropImages/prop3/33.jpg",
-				"/PropImages/prop3/34.jpg",
-				"/PropImages/prop3/35.jpg"
+				"/images/prop3/prop31.webp",
+				"/images/prop3/prop32.webp",
+				"/images/prop3/prop33.webp",
+				"/images/prop3/prop34.webp",
+				"/images/prop3/prop35.webp"
 			]
 		},
 		{
 			"id": "prop4",
 			"type": "House",
 			"bedrooms": 4,
-			"price": 980000,
+			"price": 432995,
 			"tenure": "Freehold",
-			"description": "A charming four-bedroom family home with a landscaped garden. The property offers a spacious living room, a well-equipped kitchen, and a separate dining area. The master bedroom comes with an en-suite bathroom. Additional features include a garage and off-street parking. Close proximity to schools and parks.",
+			"description": "The central porch entrance to The Marlborough adds to the sophistication and kerb appeal of this attractive 4-bedroom home with integral garage.<br>Inside you’ll find a front-aspect living room with a bay window, as well as an open-plan kitchen at the rear with ample cooking and dining space as well as a practical utility room and downstairs WC.<br>The kitchen leads round to a beautiful family area with French doors out to the garden, giving the luxurious feel of a private sun-room at the rear of the house.",
 			"shortdescription":"A spacious four-bedroom family home with a landscaped garden, en-suite master bedroom, and a garage, close to schools and parks",
-			"location": "Oak Avenue, Chislehurst BR2",
-			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.908686224361!2d-0.08403552311630805!3d51.60656170345408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876004724f15555%3A0x434f9aa20588c9dc!2sChislehurst%20Homecare%20Partnership%20Limited!5e0!3m2!1sen!2slk!4v1703920971758!5m2!1sen!2slk",
-			"picture": "/PropImages/prop4/41.jpg",
-			"postalCode": "BR2",
+			"location": "Duchy Homes, The Marlborough, Hall Wood Meadows, Thirsk Road, Yarm TS15",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1906.914962963444!2d-1.3447159237819306!3d54.493570872644206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e958abba2bea1%3A0x3695f7db583fa9ef!2sDuchy%20Homes%20-%20Hall%20Wood%20Meadows!5e1!3m2!1sen!2slk!4v1766329371359!5m2!1sen!2slk",
+			"picture": "images/prop4/prop41.webp",
+			"postalCode": "TS15",
 			"url": "properties/prop4.html",
 			"added": {
 				"month": "October",
@@ -98,26 +99,26 @@
 				"year": 2023
 			},
 			"pictures": [
-				"/PropImages/prop4/41.jpg",
-				"/PropImages/prop4/42.jpg",
-				"/PropImages/prop4/43.jpg",
-				"/PropImages/prop4/44.jpg",
-				"/PropImages/prop4/45.jpg",
-				"/PropImages/prop4/46.jpg"
+				"/images/prop4/prop41.webp",
+				"/images/prop4/prop42.webp",
+				"/images/prop4/prop43.webp",
+				"/images/prop4/prop44.webp",
+				"/images/prop4/prop45.webp",
+				"/images/prop4/prop46.webp"
 			]
 		},
 		{
 			"id": "prop5",
-			"type": "House",
-			"bedrooms": 3,
-			"price": 550000,
+			"type": "Flat",
+			"bedrooms": 2,
+			"price": 320000,
 			"tenure": "Leasehold",
-			"description": "A well-maintained three-bedroom maisonette featuring a modern kitchen, a bright and airy living room, and a private balcony. The property benefits from ample storage space and is within walking distance to public transport, shops, and local parks.",
-			"shortdescription":"A cozy three-bedroom maisonette with a private balcony, modern kitchen, and easy access to shops, parks, and public transport.",
-			"location": "Maple Lane, Sevenoaks BR6",
-			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2455.770279642588!2d0.3278140769029739!3d52.01106377378457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d88a7cb05dc483%3A0xc9d8bed5d91f9163!2sMaple%20Lane!5e0!3m2!1sen!2slk!4v1703921014106!5m2!1sen!2slk",
-			"picture": "/PropImages/prop5/51.jpg",
-			"postalCode": "BR6",
+			"description": "Featuring an open plan kitchen/living/dining area with a stylish fully integrated kitchen, this property also benefits from an en suite to bedroom 1. The apartment offers the ideal space for social gatherings, whilst both bedrooms provide great areas for relaxing and unwinding in an evening.",
+			"shortdescription":"A newly released two bedroom, two bathroom apartment on the second floor at Stortford Fields.",
+			"location": "\"The Kingfisher - Plot 80\" at Rye Street, Bishop's Stortford CM23",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026.7906780651135!2d0.15945857602128624!3d51.88038977190056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d88513a1c9b819%3A0x2af58502cfa5e1d7!2sRye%20St%2C%20Bishop&#39;s%20Stortford%2C%20UK!5e1!3m2!1sen!2slk!4v1766329275499!5m2!1sen!2slk",
+			"picture": "images/prop5/prop51.webp",
+			"postalCode": "CM23",
 			"url": "properties/prop5.html",
 			"added": {
 				"month": "November",
@@ -125,26 +126,26 @@
 				"year": 2024
 			},
 			"pictures": [
-				"/PropImages/prop5/51.jpg",
-				"/PropImages/prop5/52.jpg",
-				"/PropImages/prop5/53.jpg",
-				"/PropImages/prop5/54.jpg",
-				"/PropImages/prop5/55.jpg",
-				"/PropImages/prop5/56.jpg"
+				"/images/prop5/prop51.webp",
+				"/images/prop5/prop52.webp",
+				"/images/prop5/prop53.webp",
+				"/images/prop5/prop54.webp",
+				"/images/prop5/prop55.webp",
+				"/images/prop5/prop56.webp"
 			]
 		},
 		{
 			"id": "prop6",
-			"type": "House",
+			"type": "Flat",
 			"bedrooms": 3,
-			"price": 675000,
+			"price": 2322000,
 			"tenure": "Freehold",
-			"description": "A modern three-bedroom townhouse with a spacious living area, contemporary kitchen, and private garden. The master bedroom includes an en-suite bathroom, and the property benefits from a garage. Located in a quiet residential area with easy access to schools, parks, and public transport.",
-			"shortdescription":"A modern three-bedroom townhouse featuring a private garden, en-suite master bedroom, and a garage in a quiet residential area",
-			"location": "Primrose Close, Bexley BR3",
-			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.3436788437384!2d-82.4828055238934!3d31.788382233850953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f06b5c1d9b92bf%3A0xd2da59e6bb772d3f!2sPrimrose%20Ln%2C%20Georgia%2031513%2C%20USA!5e0!3m2!1sen!2slk!4v1703921055749!5m2!1sen!2slk",
-			"picture": "/PropImages/prop6/61.jpg",
-			"postalCode": "BR3",
+			"description": "Boasting your new home at damac Tower is well connected and the city and West End are within easy reach via Vauxhall rail and underground station. If you are looking to go further ahead, the nearby Queenstown Road and Battersea Park railway stations offer connection to the rest of the UK via London Bridge and London Victoria. Seeing more of the world is easier too and you can reach Gatwick Airport in less than an hour by train. With the new Northern Line extension soon to be introduced, travelling will become even easier, serving two new underground stations; Nine Elms and Battersea Power Station, enabling residents to reach the city in just eight minutes.<br>Step inside, and you'll be greeted by a graceful entrance interior designed by non other than Versace with beautiful stone and high ceilings. The spacious layout flows effortlessly, allowing seamless entertaining and comfortable living. Every aspect of these apartments reflects meticulous attention to detail and a commitment to quality craftsmanship.",
+			"shortdescription":"3 bedroom 3 bathrooms Luxury Apartment with Panoramic views of London, Located in the amazing 50 story North tower. (damac tower london)",
+			"location": "Bondway, London SW8",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2044.592778951731!2d-0.12722822400793635!3d51.48443537180806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ee3e12a099%3A0x13245339d46110cc!2sBondway%2C%20London%2C%20UK!5e1!3m2!1sen!2slk!4v1766329677821!5m2!1sen!2slk",
+			"picture": "images/prop6/prop61.webp",
+			"postalCode": "SW8",
 			"url": "properties/prop6.html",
 			"added": {
 				"month": "December",
@@ -152,25 +153,26 @@
 				"year": 2021
 			},
 			"pictures": [
-				"/PropImages/prop6/61.jpg",
-				"/PropImages/prop6/62.jpg",
-				"/PropImages/prop6/63.jpg",
-				"/PropImages/prop6/64.jpg",
-				"/PropImages/prop6/65.jpg"
+				"/images/prop6/prop61.webp",
+				"/images/prop6/prop62.webp",
+				"/images/prop6/prop63.webp",
+				"/images/prop6/prop64.webp",
+				"/images/prop6/prop65.webp",
+				"/images/prop6/prop66.webp"
 			]
 		},
 		{
 			"id": "prop7",
-			"type": "Apartment",
-			"bedrooms": 0,
-			"price": 180000,
+			"type": "Bungalow",
+			"bedrooms": 4,
+			"price": 1000000,
 			"tenure": "Leasehold",
-			"description": "A cozy studio apartment with a modern kitchenette and bathroom. The open-plan design maximizes space, and large windows provide plenty of natural light. Conveniently located near local amenities, shopping centers, and public transportation.",
-			"shortdescription":"A bright studio apartment with an open-plan design, modern kitchenette, and close proximity to shops and public transport",
-			"location": "Elm Street, Sidcup BR4",
-			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.801450549183!2d0.09840057687508261!3d51.42507381671382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac040d14e589%3A0xd6ad6aa0ee14be74!2sElm%20Rd%2C%20Sidcup%2C%20UK!5e0!3m2!1sen!2slk!4v1703921103440!5m2!1sen!2slk",
-			"picture": "/PropImages/prop7/71.jpg",
-			"postalCode": "BR4",
+			"description": "Dating back to the late 18th century, Leyswood Estate was originally purchased by James W. Temple, director of the Shaw Savill shipping company, who worked closely with his cousin, architect Norman Shaw, to build an imposing country house, known as Leyswood House. The property had a succession of owners following the death of James Temple and his widow in 1919, and was later occupied by the Canadian Army. Following the Second World War, a large area of Leyswood House went into disrepair and was later demolished. It is rumoured that the bricks were used to build further ancillary properties around the estate, including Little Leyswood, around the 1950s.<br>Little Leyswood is a much-loved, light and spacious four-bedroom bungalow in good order, whilst offering a wonderful opportunity for a new owner to put their stamp on the property moving forward.",
+			"shortdescription":"A well-presented & deceptively spacious bungalow found on this idyllic country estate on the edge of Groombridge, enjoying beautiful private gardens & offering considerable further potential",
+			"location": "Corseley Road, Groombridge, Tunbridge Wells, Kent TN3",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2061.64579630855!2d0.1825312!3d51.10308920000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df5b5074da3eb9%3A0xcf62811f5408bb92!2sCorseley%20Rd%2C%20United%20Kingdom!5e1!3m2!1sen!2slk!4v1766330475082!5m2!1sen!2slk",
+			"picture": "images/prop7/prop71.webp",
+			"postalCode": "TN3",
 			"url": "properties/prop7.html",
 			"added": {
 				"month": "December",
@@ -178,26 +180,26 @@
 				"year": 2023
 			},
 			"pictures": [
-				"/PropImages/prop7/71.jpg",
-				"/PropImages/prop7/72.jpg",
-				"/PropImages/prop7/73.jpg",
-				"/PropImages/prop7/74.jpg",
-				"/PropImages/prop7/75.jpg",
-				"/PropImages/prop7/76.jpg"
+				"/PropImages/prop7/prop71.webp",
+				"/PropImages/prop7/prop72.webp",
+				"/PropImages/prop7/prop73.webp",
+				"/PropImages/prop7/prop74.webp",
+				"/PropImages/prop7/prop75.webp",
+				"/PropImages/prop7/prop76.webp"
 			]
 		},
 		{
 			"id": "prop8",
-			"type": "Townhouse",
-			"bedrooms": 2,
-			"price": 420000,
+			"type": "Bungalow",
+			"bedrooms": 3,
+			"price": 685000,
 			"tenure": "Leasehold",
-			"description": "A modern two-bedroom flat with an open-plan kitchen and living area. The property features a balcony with panoramic views. Both bedrooms are generously sized, and there are two bathrooms. Conveniently located near transport links and local amenities.",
-			"shortdescription":"A sleek two-bedroom flat with a balcony offering stunning views, spacious bedrooms, and easy access to local transport and amenities",
-			"location": "Riverside Drive, Dartford BR5",
-			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.383180640705!2d0.216682276876303!3d51.45112081481297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b1962a4590b5%3A0x32ad0b63066e48f2!2sRiverside%20Way%2C%20Dartford%2C%20UK!5e0!3m2!1sen!2slk!4v1703921143378!5m2!1sen!2slk",
-			"picture": "/PropImages/prop8/81.jpg",
-			"postalCode": "BR5",
+			"description": "Finished in neutral tones throughout, the property offers spacious and versatile accommodation, with the flexibility to provide up to four double bedrooms or additional reception rooms to suit your lifestyle. It benefits from gas-fired central heating and uPVC double glazing, including two sets of French doors in the sitting room that open onto a full-width balcony-perfect for enjoying the breathtaking coastal outlook.",
+			"shortdescription":"This beautifully presented detached bungalow, built in 2003, is set within a sought-after residential area and boasts stunning, uninterrupted sea views across the picturesque Sid Valley.",
+			"location": "King Charles Way, Sidmouth, Devon EX10",
+			"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2079.5018378885907!2d-3.2357332!3d50.701578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486d9c93e74ddbc3%3A0xa0f8ab752f43ec3c!2sKing%20Charles%20Way%2C%20Sidmouth%2C%20UK!5e1!3m2!1sen!2slk!4v1766330719974!5m2!1sen!2slk",
+			"picture": "images/prop8/prop81.webp",
+			"postalCode": "EX10",
 			"url": "properties/prop8.html",
 			"added": {
 				"month": "January",
@@ -205,11 +207,11 @@
 				"year": 2023
 			},
 			"pictures": [
-				"/PropImages/prop8/81.jpg",
-				"/PropImages/prop8/82.jpg",
-				"/PropImages/prop8/83.jpg",
-				"/PropImages/prop8/84.jpg",
-				"/PropImages/prop8/85.jpg"
+				"/images/prop8/prop81.webp",
+				"/images/prop8/prop82.webp",
+				"/images/prop8/prop83.webp",
+				"/images/prop8/prop84.webp",
+				"/images/prop8/prop85.webp"
 			]
 		}
 	]

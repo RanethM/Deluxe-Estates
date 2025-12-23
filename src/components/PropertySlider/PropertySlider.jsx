@@ -9,7 +9,7 @@ const PropertySlider = ({ properties }) => {
 
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % properties.length);
-    }, 2000);
+    }, 4000); // change slide every 4 seconds
 
     return () => clearInterval(interval);
   }, [properties]);
@@ -18,23 +18,27 @@ const PropertySlider = ({ properties }) => {
     return <p>No properties available</p>;
   }
 
-  const currentProperty = properties[currentIndex];
-
   return (
     <div className="slider-container">
-      <div className="slider">
-        {/* Image */}
-        <img
-          src={`/${currentProperty.picture}`}
-          alt={`Property ${currentProperty.id}`}
-          className="slider-image"
-        />
-
-        {/* Details Overlay */}
-        <div className="slider-details">
-          <p className="slider-price">£{currentProperty.price.toLocaleString()}</p>
-          <p>{currentProperty.location}</p>
-        </div>
+      <div
+        className="slider-track"
+        style={{
+          transform: `translateX(-${currentIndex * 100}%)`,
+        }}
+      >
+        {properties.map((property) => (
+          <div className="slider-card" key={property.id}>
+            <img
+              src={property.picture.startsWith('/') ? property.picture : `/${property.picture}`}
+              alt={`Property ${property.id}`}
+              className="slider-image"
+            />
+            <div className="slider-overlay">
+              <p className="slider-price">£{property.price.toLocaleString()}</p>
+              <p className="slider-location">{property.location}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

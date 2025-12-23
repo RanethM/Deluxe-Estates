@@ -15,16 +15,7 @@ const HomePage = () => {
       {/* Displays the site header */}
       <Header />
 
-      
-      <section className="hero">
-      <div className="hero-content">
-        <h1>Homes That Match Your Lifestyle</h1>
-        <p>
-          Discover carefully selected houses, apartments, and flats designed to fit
-          your needs, budget, and future plans.
-        </p>
-      </div>
-    </section>
+  
 
     {/* Main Content */}
       <div className="slider-content-container">
@@ -49,17 +40,9 @@ const HomePage = () => {
         </div>
       </div>
 
-      {/* Footer Section */}
-      <footer className="footer">
-        <div className="footer-content">
-          {/* Footer Text */}
-          <p>&copy; 2025 EstateEase. All Rights Reserved.</p>
-          <p>Follow us on:</p>
-          {/* Social Media Links */}
-          <div className="social-icons">
-            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
-          </div>
-        </div>
+           {/* FOOTER */}
+      <footer className="about-footer">
+        <p>© 2025 Deluxe Estates. Crafted with excellence.</p>
       </footer>
 
     </div>

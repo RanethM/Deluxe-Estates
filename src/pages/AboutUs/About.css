@@ -1,0 +1,266 @@
+/* ================= GLOBAL ================= */
+
+.about-page {
+  font-family: "Inter", sans-serif;
+  color: #1e2f2a;
+   background-color: #f6f7f4;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+section{ 
+   background-color: #f6f7f4;
+}
+
+
+
+/* ================= HERO ================= */
+
+.about-hero {
+  height: 80vh;
+  width: 95%;
+  margin: 30px auto;
+  border-radius: 30px;
+  background: url("/images/image3.jpg") center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(5, 40, 30, 0.85),
+    rgba(5, 40, 30, 0.65)
+  );
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: clamp(40px, 5vw, 70px);
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+/* ================= STICKY STORY ================= */
+
+
+
+.about-story{
+  background-color: #f6f7f4;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+}
+
+/* THIS makes it sticky */
+.story-left {
+  position: sticky;
+  top: 120px;
+  height: fit-content;
+}
+
+.story-left h2 {
+  font-size: 42px;
+  color: #0f3d2e; /* rich green */
+}
+
+.story-left p {
+  margin-top: 15px;
+  opacity: 0.7;
+}
+
+.story-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(219, 213, 213, 0.587);
+
+  border-radius: 24px;
+  padding: 50px;
+  margin-bottom: 120px; /* space so they feel intentional */
+  min-height: 260px;
+
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
+
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.story-card h3 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+
+.story-card.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.story-lead {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  opacity: 0.85;
+}
+
+.story-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.story-points li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  opacity: 0.75;
+}
+
+.story-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background: #0f3d2e; /* rich green */
+  border-radius: 50%;
+}
+
+
+/* ================= WHY US ================= */
+
+.why-us {
+  background: linear-gradient(135deg, #0f3d2e, #134e3a);
+  padding: 120px 0;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+}
+
+/* ================= TEAM ================= */
+
+.team {
+  padding: 120px 0;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.team-card {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.team-image {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.team-image img {
+  width: 200px;
+  height:auto; 
+
+
+}
+
+.team-card h4 {
+  margin-top: 18px;
+  font-size: 20px;
+}
+
+.team-card span {
+  display: block;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+
+.team-card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* ================= FOOTER ================= */
+
+.about-footer {
+  background: #0f3d2e;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+/* ================= ANIMATION ================= */
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+  .story-grid,
+  .features,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .story-left {
+    position: relative;
+    top: 0;
+  }
+}
+
+
