@@ -1,5 +1,5 @@
 .header {
-    background-color: #054e30;
+    background-color: transparent;
     margin: 0;
     padding: 0;
     display: inline;
@@ -13,7 +13,7 @@
     padding: 10px;
   background: radial-gradient(
         circle at center,
-        #126125 0%,
+        #0b3815 0%,
         #0f482a 35%,
         #0f482d 65%,
         #081F18 100%

@@ -1,16 +1,17 @@
 body{
   background-color: #f6f7f4;
+  overflow-x: hidden; 
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 70px 20px;
-  background: linear-gradient(
-    to bottom,
-    #f7f9fc,
-    #ffffff
-  );
+  background-color: #f6f7f4;
+
+  position: relative; 
+  margin-top:200px;
+  left:200px; 
 }
 
 .hero-content {
@@ -50,7 +51,7 @@ body{
 .slider-section {
   flex: 1;
   max-width: 60%;
-  background: white;
+  background-color: #f6f7f4;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);

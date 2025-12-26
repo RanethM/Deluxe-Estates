@@ -152,8 +152,8 @@ useEffect(() => {
       </section>
 
       {/* FOOTER */}
-      <footer className="about-footer">
-        <p>© 2025 Deluxe Estates. Crafted with excellence.</p>
+      <footer className="contact-footer">
+        © 2025 Deluxe Estates · Crafted with elegance
       </footer>
     </div>
   );
