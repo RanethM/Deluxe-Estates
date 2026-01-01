@@ -24,7 +24,9 @@
 				"/images/prop1/prop13.webp",
 				"/images/prop1/prop14.webp",
 				"/images/prop1/prop15.webp", 
-				"/images/prop1/prop16.webp"
+				"/images/prop1/prop16.webp", 
+				"/images/prop1/prop1fp.webp"
+
 			]
 		},
 		{
@@ -109,7 +111,7 @@
 		},
 		{
 			"id": "prop5",
-			"type": "Flat",
+			"type": "Apartment",
 			"bedrooms": 2,
 			"price": 320000,
 			"tenure": "Leasehold",
@@ -136,7 +138,7 @@
 		},
 		{
 			"id": "prop6",
-			"type": "Flat",
+			"type": "Apartment",
 			"bedrooms": 3,
 			"price": 2322000,
 			"tenure": "Freehold",
