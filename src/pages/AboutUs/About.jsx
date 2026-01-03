@@ -110,7 +110,7 @@ useEffect(() => {
       {/* WHY US */}
       <section className="why-us">
         <div className="container">
-          <h2 className="section-title fade-up">Why Choose Us</h2>
+          <h2 className="about-section-title fade-up">Why Choose Us</h2>
 
           <div className="features">
             <div className="feature fade-up">
@@ -134,7 +134,7 @@ useEffect(() => {
       {/* TEAM */}
       <section className="team">
         <div className="container">
-          <h2 className="section-title fade-up">Our Leadership</h2>
+          <h2 className="about-section-title fade-up">Our Leadership</h2>
 
           <div className="team-grid">
             {teamMembers.map((m, i) => (

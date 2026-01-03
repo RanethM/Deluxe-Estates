@@ -53,7 +53,8 @@
 				"/images/prop2/prop23.webp",
 				"/images/prop2/prop24.webp",
 				"/images/prop2/prop25.webp",
-				"/images/prop2/prop26.webp"
+				"/images/prop2/prop26.webp",
+				"/images/prop2/prop2fp.webp"
 			]
 		},
 		{
@@ -79,7 +80,8 @@
 				"/images/prop3/prop32.webp",
 				"/images/prop3/prop33.webp",
 				"/images/prop3/prop34.webp",
-				"/images/prop3/prop35.webp"
+				"/images/prop3/prop35.webp", 
+				"/images/prop3/prop3fp.webp"
 			]
 		},
 		{
@@ -106,7 +108,8 @@
 				"/images/prop4/prop43.webp",
 				"/images/prop4/prop44.webp",
 				"/images/prop4/prop45.webp",
-				"/images/prop4/prop46.webp"
+				"/images/prop4/prop46.webp",
+				"/images/prop4/prop4fp.webp"
 			]
 		},
 		{
@@ -133,7 +136,8 @@
 				"/images/prop5/prop53.webp",
 				"/images/prop5/prop54.webp",
 				"/images/prop5/prop55.webp",
-				"/images/prop5/prop56.webp"
+				"/images/prop5/prop56.webp", 
+				"/images/prop5/prop5fp.webp"
 			]
 		},
 		{
@@ -160,7 +164,8 @@
 				"/images/prop6/prop63.webp",
 				"/images/prop6/prop64.webp",
 				"/images/prop6/prop65.webp",
-				"/images/prop6/prop66.webp"
+				"/images/prop6/prop66.webp", 
+				"/images/prop6/prop6fp.webp"
 			]
 		},
 		{
@@ -187,7 +192,8 @@
 				"/PropImages/prop7/prop73.webp",
 				"/PropImages/prop7/prop74.webp",
 				"/PropImages/prop7/prop75.webp",
-				"/PropImages/prop7/prop76.webp"
+				"/PropImages/prop7/prop76.webp", 
+				"/images/prop7/prop7fp.webp"
 			]
 		},
 		{
@@ -213,7 +219,8 @@
 				"/images/prop8/prop82.webp",
 				"/images/prop8/prop83.webp",
 				"/images/prop8/prop84.webp",
-				"/images/prop8/prop85.webp"
+				"/images/prop8/prop85.webp", 
+				"/images/prop8/prop8fp.webp"
 			]
 		}
 	]

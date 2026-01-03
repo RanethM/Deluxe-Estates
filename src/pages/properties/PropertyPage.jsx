@@ -1,98 +1,92 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./PropertyPage.css";
-import propertiesData from "../../data/properties.json"; // Ensure this path is correct
+import propertyData from '../../data/properties.json';
+import { useParams } from 'react-router-dom';
+import { useState } from 'react';
+import './propertyPage.css';
 
-const PropertyPage = () => {
-  const { id } = useParams(); // Get property ID from URL
-  const property = propertiesData.properties.find((prop) => prop.id === id);
+export default function PropertyDetails() {
+  const { id } = useParams();
+  const property = propertyData.properties.find((p) => p.id === id);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  window.scrollTo(0, 0); 
 
-  console.log("Property ID from URL:", id); // Debugging
-  console.log("Fetched Property:", property); // Debugging
+  if (!property) return <p className="no-results">Property not found!</p>;
 
-  if (!property) {
-    return <div className="property-error">Property not found.</div>;
-  }
+  const images = property.pictures;
+  const currentImage = images[currentIndex];
 
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+  const prevImage = () => {
+    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
+  const nextImage = () => {
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  };
+
+  // Floor plan
+  const floorPlan = images.find((img) => img.toLowerCase().includes('fp'));
 
   return (
     <div className="property-page">
-      {/* Header */}
-      <header className="property-header">
-        <h1>{property.type}</h1>
-        <p>{property.location}</p>
-      </header>
+      {/* Breadcrumb / Back */}
+      <div className="breadcrumb">
+        <a href="/search">&larr; Back to search results</a>
+      </div>
 
-      {/* Image Slider */}
-      <section className="property-slider">
-        <Slider {...sliderSettings}>
-          {property.pictures?.map((picture, index) => (
-            <div key={index}>
-              <img src={picture} alt={`Property ${index + 1}`} />
-            </div>
-          ))}
-        </Slider>
-      </section>
+      {/* Main Section */}
+      <div className="property-main">
+        <div className="image-gallery">
+          <div className="slider-container">
+            <button className="arrow left-arrow" onClick={prevImage}>&lt;</button>
+            <img src={currentImage} alt={property.type} className="main-image" />
+            <button className="arrow right-arrow" onClick={nextImage}>&gt;</button>
+          </div>
 
-      {/* Property Details */}
-      <section className="property-details">
-        <h2>Property Details</h2>
-        <ul>
-          <li>
-            <strong>Price:</strong> {property.price?.toLocaleString()} USD
-          </li>
-          <li>
-            <strong>Type:</strong> {property.type || "N/A"}
-          </li>
-          <li>
-            <strong>Bedrooms:</strong> {property.bedrooms || "N/A"}
-          </li>
-          <li>
-            <strong>Tenure:</strong> {property.tenure || "N/A"}
-          </li>
-          <li>
-            <strong>Added on:</strong> {`${property.added?.day} ${property.added?.month} ${property.added?.year}`}
-          </li>
-          <li>
-            <strong>Postal Code:</strong> {property.postalCode || "N/A"}
-          </li>
-        </ul>
-      </section>
+          <div className="thumbnail-container">
+            {images.map((img, idx) => (
+              <img
+                key={idx}
+                src={img}
+                alt={`Thumbnail ${idx + 1}`}
+                className={`thumbnail ${currentIndex === idx ? 'active-thumbnail' : ''}`}
+                onClick={() => setCurrentIndex(idx)}
+              />
+            ))}
+          </div>
+        </div>
 
-      {/* Property Description */}
-      <section className="property-description">
-        <h2>About This Property</h2>
-        <p>{property.description || "No description available."}</p>
-      </section>
+        {/* Property Info */}
+        <div className="property-info">
+          <div className="price">{new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(property.price)}</div>
+          <div className="meta">
+            {property.bedrooms} beds • {property.tenure} • {property.postalCode}
+          </div>
+          <h1 className="title">{property.shortdescription}</h1>
+          <p className="description">{property.description}</p>
+        </div>
+      </div>
 
-      {/* Location */}
-      <section className="property-location">
+      {/* Floor Plan */}
+      {floorPlan && (
+        <div className="floorplan-section">
+          <h2>Floor Plan</h2>
+          <img src={floorPlan} alt="Floor Plan" className="floorplan-img" />
+        </div>
+      )}
+
+      {/* Map */}
+      <div className="map-section">
         <h2>Location</h2>
         <iframe
-          title="Property Location"
           src={property.map}
-          allowFullScreen
+          width="100%"
+          height="400"
+          style={{ border: 0, borderRadius: '16px' }}
+          allowFullScreen=""
           loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Property Map"
         ></iframe>
-      </section>
-
-      {/* Footer */}
-      <footer className="property-footer">
-        <p>&copy; 2025 EstateEase. All Rights Reserved.</p>
-      </footer>
+      </div>
     </div>
   );
-};
-
-export default PropertyPage;
+}

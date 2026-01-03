@@ -1,12 +1,13 @@
 /* ===============================
    GENERAL STYLING
 ================================ */
-body {
+body,main {
   font-family: "Poppins", sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
+  background-color: #f6f7f4;
+
   margin: 0;
   padding: 0;
+
 }
 
 h1 {
@@ -19,7 +20,6 @@ h1 {
 p {
   text-align: left;
   font-size: 1.1rem;
-  color: #7f8c8d;
   margin-bottom: 20px;
 }
 
@@ -28,6 +28,7 @@ p {
 ================================ */
 .page-wrapper {
   min-height: 100vh;
+  background-color: #f6f7f4;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -72,13 +73,7 @@ p {
   border: 1px solid #e6ecf3;
 }
 
-.Search-form .section-title {
-  font-size: 1.9rem;
-  font-weight: 700;
-  color: #1c3d5a;
-  margin-bottom: 25px;
-  text-align: center;
-}
+
 
 /* ===============================
    FORM STRUCTURE
@@ -233,8 +228,8 @@ select:focus {
   margin-top: 40px;
 }
 
-.results-container .section-title {
-  font-size: 1.8rem;
+.section-title {
+  font-size: 3rem;
   font-weight: 700;
   color: #1c5a37;
   margin-bottom: 25px;
@@ -320,14 +315,13 @@ select:focus {
 .property-image-container .explore-button {
   margin-top: 12px;
   border-radius:20px;
-  padding:5px;
+  padding:10px;
   align-self: stretch;
-  background: #0f2e14;
-  color: #fff;
+  border: none ;
+
 }
 
 .property-image-container .explore-button:hover {
-  background: #1c3d5a;
   transform: translateY(-1px);
 }
 
@@ -342,7 +336,8 @@ select:focus {
   position: relative;
 }
 
-.-card-property-details h3 {
+.card-property-details h3 {
+  margin-top:10px;
   font-size: 1.55rem;
   font-weight: 600;
   color: #0f1f2e;
@@ -362,6 +357,8 @@ select:focus {
   font-size: 13px;
   color: #0e162e;
   margin: 0;
+  position:relative; 
+  bottom:30px;
 }
 
 .desc {
@@ -369,6 +366,8 @@ select:focus {
   color: #5f6b75;
   line-height: 1.5;
   position: relative;
+  bottom:55px;
+  text-align: left ;
 }
 
 /* ===============================
@@ -434,6 +433,7 @@ select:focus {
 
   .top-section {
     flex-direction: column;
+    margin-bottom: 50px;
   }
 
   .form-row {
@@ -460,4 +460,181 @@ select:focus {
 
 .footer a {
   color: white;
+}
+
+/* ===============================
+   GENERAL STYLING
+================================ */
+body {
+  background-color: #f3f8f5;
+  color: #2f3e34;
+}
+
+h1 {
+  color: #1c5a37;
+}
+
+
+
+/* ===============================
+   SEARCH FORM
+================================ */
+.Search-form {
+  background: linear-gradient(180deg, #ffffff, #eef7f1);
+  border-color: #cfe6d6;
+}
+
+.Search-form .section-title {
+  color: #1c5a37;
+}
+
+/* ===============================
+   FORM STRUCTURE
+================================ */
+.form-item label {
+  color: #2f4f3a;
+}
+
+input,
+select {
+  border-color: #cfe6d6;
+  background-color: #ffffff;
+}
+
+input:hover,
+select:hover {
+  border-color: #2ea734;
+}
+
+input:focus,
+select:focus {
+  border-color: #2ea734;
+  box-shadow: 0 0 0 3px rgba(46, 167, 52, 0.2);
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+.btn-submit {
+  background: linear-gradient(135deg, #2ea734, #1c5a37);
+  color: white;
+  box-shadow: 0 8px 18px rgba(46, 167, 52, 0.35);
+}
+
+.btn-submit:hover {
+  background: linear-gradient(135deg, #34c759, #249b42);
+}
+
+.btn-clear {
+  background: #ffffff;
+  border-color: #2ea734;
+  color: #2ea734;
+}
+
+.btn-clear:hover {
+  background-color: #2ea734;
+  color: white;
+}
+
+/* ===============================
+   FAVOURITES LIST
+================================ */
+.favourites-list {
+  background: #eaf6ee;
+  border-color: #2ea734;
+}
+
+.favourites-list h2 {
+  color: #1c5a37;
+}
+
+.favourite-item {
+  background-color: #ffffff;
+  border-color: #cfe6d6;
+}
+
+.favorite-type {
+  color: #1c5a37;
+}
+
+.remove-button,
+.favorites-clear {
+  background-color: #2ea734;
+  color: #fff;
+}
+
+.remove-button:hover,
+.favorites-clear:hover {
+  background-color: #1c5a37;
+}
+
+/* ===============================
+   PROPERTY RESULTS
+================================ */
+.results-container .section-title {
+  color: #1c5a37;
+}
+
+.no-results {
+  color: #c0392b;
+}
+
+/* ===============================
+   PROPERTY CARDS
+================================ */
+.property-card {
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(46, 167, 52, 0.18);
+}
+
+.price-badge {
+  background-color: #2ea734;
+  color: white;
+}
+
+/* ===============================
+   EXPLORE BUTTON
+================================ */
+.property-image-container .explore-button {
+  background: #1c5a37;
+  color: #fff;
+}
+
+.property-image-container .explore-button:hover {
+  background: #2ea734;
+}
+
+/* ===============================
+   PROPERTY DETAILS
+================================ */
+.card-property-details h3 {
+  color: #1c5a37;
+}
+
+.address {
+  color: #3f6b4f;
+}
+
+.desc {
+  color: #5f6b63;
+  
+}
+
+/* ===============================
+   HEART ICON
+================================ */
+.heart-icon {
+  color: #1c5a37;
+}
+
+.heart-icon.favourited {
+  color: #e74c3c;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+.footer {
+  background-color: #1c5a37;
+  color: #ffffff;
 }
