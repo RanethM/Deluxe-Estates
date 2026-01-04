@@ -8,9 +8,11 @@ export default function PropertyDetails() {
   const property = propertyData.properties.find((p) => p.id === id);
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const base = import.meta.env.BASE_URL || '/';
+
   if (!property) return <p className="no-results">Property not found!</p>;
 
-  const images = property.pictures;
+  const images = property.pictures || [];
   const currentImage = images[currentIndex];
 
   const prevImage = () => {
@@ -36,7 +38,7 @@ export default function PropertyDetails() {
         <div className="image-gallery">
           <div className="slider-container">
             <button className="arrow left-arrow" onClick={prevImage}>&lt;</button>
-            <img src={currentImage} alt={property.type} className="main-image" />
+            <img src={currentImage ? base + currentImage : ''} alt={property.type} className="main-image" />
             <button className="arrow right-arrow" onClick={nextImage}>&gt;</button>
           </div>
 
@@ -44,7 +46,7 @@ export default function PropertyDetails() {
             {images.map((img, idx) => (
               <img
                 key={idx}
-                src={img}
+                src={base + img}
                 alt={`Thumbnail ${idx + 1}`}
                 className={`thumbnail ${currentIndex === idx ? 'active-thumbnail' : ''}`}
                 onClick={() => setCurrentIndex(idx)}
@@ -68,7 +70,7 @@ export default function PropertyDetails() {
       {floorPlan && (
         <div className="floorplan-section">
           <h2>Floor Plan</h2>
-          <img src={floorPlan} alt="Floor Plan" className="floorplan-img" />
+          <img src={floorPlan ? base + floorPlan : ''} alt="Floor Plan" className="floorplan-img" />
         </div>
       )}
 

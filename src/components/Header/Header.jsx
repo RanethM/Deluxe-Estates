@@ -3,6 +3,7 @@ import './Header.css'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
+  const base = import.meta.env.BASE_URL || '/'
   return (
     <div className="home-header">
 
@@ -14,7 +15,7 @@ const Header = () => {
         loop
         playsInline
       >
-        <source src="/header-video.mp4" type="video/mp4" />
+        <source src={base + "header-video.mp4"} type="video/mp4" />
       </video>
 
       {/* Content */}

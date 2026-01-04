@@ -3,6 +3,7 @@ import './PropertySlider.css';
 
 const PropertySlider = ({ properties }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const base = import.meta.env.BASE_URL || '/';
 
   useEffect(() => {
     if (!properties || properties.length === 0) return;
@@ -29,7 +30,7 @@ const PropertySlider = ({ properties }) => {
         {properties.map((property) => (
           <div className="slider-card" key={property.id}>
             <img
-              src={property.picture.startsWith('/') ? property.picture : `/${property.picture}`}
+              src={base + (property.picture.startsWith('/') ? property.picture.slice(1) : property.picture)}
               alt={`Property ${property.id}`}
               className="slider-image"
             />

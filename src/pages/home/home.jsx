@@ -7,6 +7,7 @@ import PropertySlider from '../../components/PropertySlider/PropertySlider';
 
 const HomePage = () => {
   const properties = propertiesData.properties;
+  const base = import.meta.env.BASE_URL || '/';
   
   return (
     <>

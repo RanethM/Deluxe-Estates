@@ -5,35 +5,47 @@ body{
 
 /* Hero Section */
 .hero {
-  text-align: center;
-  padding: 70px 20px;
-  background-color: #f6f7f4;
-
-  position: relative; 
-  margin-top:200px;
-  left:200px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background: transparent; /* make container transparent so only the wording shows */
+  margin: 0 auto 20px;
+  min-height: 180px;
 }
 
 .hero-content {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
 }
 
 .hero h1 {
   color: rgb(27, 37, 53);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  margin-bottom: 16px;
+  position: relative; 
+  top:400px;
+  left:100px;
   letter-spacing: -0.5px;
 }
 
 .hero p {
-  font-size: 1.15rem;
+  font-size: 0.95rem; /* smaller description */
   margin: 0 auto;
-  max-width: 650px;
-  font-weight: 500;
- 
-  line-height: 1.7;
+  max-width: 700px;
+  font-weight: 400;
+  color: rgba(27,37,53,0.65); /* lighter colour for description */
+  line-height: 1.6;
+  position:relative; 
+  top:430px;
+  left:100px;
+  text-align: center ;
+
 }
 
 /* Slider Content Container */
@@ -42,7 +54,7 @@ body{
   flex-wrap: wrap; /* Allow wrapping on smaller screens */
   justify-content: space-between;
   align-items: center;
-  margin: 40px auto;
+  margin: 200px auto;
   gap: 30px;
   padding: 20px;
 }
