@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/RanethM/Deluxe-Estates/issues"
   },
-  "homepage": "https://ranethm.github.io/Deluxe-Estates",
+  "homepage": "/",
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^18.2.0",
