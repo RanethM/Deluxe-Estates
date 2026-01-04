@@ -1,7 +1,7 @@
 import propertyData from '../../data/properties.json';
 import { useParams } from 'react-router-dom';
 import { useState } from 'react';
-import './propertyPage.css';
+import './PropertyPage.css';
 
 export default function PropertyDetails() {
   const { id } = useParams();
