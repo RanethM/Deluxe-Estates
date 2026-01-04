@@ -12,7 +12,7 @@
     "test:watch": "vitest --watch",
     "test:coverage": "vitest run --coverage",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -t"d
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/RanethM/Deluxe-Estates/issues"
   },
-  "homepage": "https://github.com/RanethM/Deluxe-Estates#readme",
+  "homepage": "https://ranethm.github.io/Deluxe-Estates",
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^18.2.0",
