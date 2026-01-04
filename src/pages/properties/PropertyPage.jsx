@@ -88,6 +88,11 @@ export default function PropertyDetails() {
           title="Property Map"
         ></iframe>
       </div>
+
+      {/* FOOTER */}
+      <footer className="contact-footer">
+        © 2025 Deluxe Estates · Crafted with elegance
+      </footer>
     </div>
   );
 }

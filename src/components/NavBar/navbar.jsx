@@ -8,10 +8,13 @@ export default function Navbar() {
       <div className="header-box">
 
         <Link to='/HomePage' className='link-list'>
-        <h1 className='header-logo'>
-          <span className='header-logo-first'>Deluxe</span>
-          <span className='header-logo-second'>Estates</span>
-        </h1>
+        <div className='logo-container'>
+          <img src='./webLogo.png' alt='Deluxe Estates Logo' className='web-logo' />
+          <h1 className='header-logo'>
+            <span className='header-logo-first'>Deluxe</span>
+            <span className='header-logo-second'>Estates</span>
+          </h1>
+        </div>
         </Link>
 
         <ul className="header-list">

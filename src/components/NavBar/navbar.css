@@ -36,6 +36,12 @@
   }
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
 .header-logo {
     font-weight: bolder;
     font-size: clamp(15px, 2vw, 25px);
@@ -43,7 +49,15 @@
     flex-wrap: wrap;
     text-decoration: none;
     padding: 10px;
-    margin-left: 15px;
+    margin-left: 0px;
+
+}
+
+.web-logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    display: block;
 }
 
 .header-logo-first {

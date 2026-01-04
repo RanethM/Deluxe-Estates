@@ -36,7 +36,7 @@ useEffect(() => {
       <header className="about-hero">
         <div className="hero-overlay" />
         <div className="hero-content fade-up">
-          <h1>Deluxe Estates</h1>
+          <h1 className="hero-title">Deluxe Estates</h1>
           <p>Luxury living, crafted with trust and elegance</p>
         </div>
       </header>

@@ -116,12 +116,31 @@ export default function Search() {
 
   const handleDrop = (event) => {
     event.preventDefault();
-    const property = JSON.parse(event.dataTransfer.getData("property"));
-    addToFavourites(property);
+    // Only handle property drops, not favourite drops
+    const propertyData = event.dataTransfer.getData("property");
+    if (propertyData) {
+      const property = JSON.parse(propertyData);
+      addToFavourites(property);
+    }
+    // Set dropEffect to copy for successful drops
+    event.dataTransfer.dropEffect = "copy";
   };
 
   const handleDragOver = (event) => {
     event.preventDefault();
+    event.dataTransfer.dropEffect = "copy";
+  };
+
+  const handleFavouriteDragStart = (event, id) => {
+    event.dataTransfer.effectAllowed = "move";
+    event.dataTransfer.setData("favouriteId", id);
+  };
+
+  const handleFavouriteDragEnd = (event, id) => {
+    // If dropEffect is 'none', it means the item was dropped outside a valid drop zone
+    if (event.dataTransfer.dropEffect === "none") {
+      removeFromFavourites(id);
+    }
   };
 
   // Check if a property is already in favorites
@@ -225,7 +244,13 @@ export default function Search() {
             {favourites.length > 0 ? (
               <>
                 {favourites.map((fav) => (
-                  <div key={fav.id} className="favourite-item">
+                  <div
+                    key={fav.id}
+                    className="favourite-item"
+                    draggable
+                    onDragStart={(e) => handleFavouriteDragStart(e, fav.id)}
+                    onDragEnd={(e) => handleFavouriteDragEnd(e, fav.id)}
+                  >
                     <img src={fav.picture} alt={fav.type} />
                     <div>
                       <h3 className="favorite-type">{fav.type}</h3>
@@ -270,21 +295,6 @@ export default function Search() {
                 <div className="property-image-container">
                   <img src={property.picture} className="property-image" />
 
-                  <div
-                    className={`heart-icon ${isFavourited(property.id) ? 'favourited' : ''}`}
-                    onClick={() =>
-                      isFavourited(property.id)
-                        ? removeFromFavourites(property.id)
-                        : addToFavourites(property)
-                    }
-                  >
-                    {isFavourited(property.id) ? <FaHeart /> : <FaRegHeart />}
-                    <span className="heart-label">
-                      {isFavourited(property.id) ? 'Added!' : 'Add to Favourites'}
-                    </span>
-                  </div>
-
-
                   <div className="price-badge">
                     {new Intl.NumberFormat("en-US", {
                       style: "currency",
@@ -300,6 +310,20 @@ export default function Search() {
                   </button>
                 </div>
 
+                <div
+                  className={`heart-icon ${isFavourited(property.id) ? 'favourited' : ''}`}
+                  onClick={() =>
+                    isFavourited(property.id)
+                      ? removeFromFavourites(property.id)
+                      : addToFavourites(property)
+                  }
+                >
+                  {isFavourited(property.id) ? <FaHeart /> : <FaRegHeart />}
+                  <span className="heart-label">
+                    {isFavourited(property.id) ? 'Added!' : 'Add to Favourites'}
+                  </span>
+                </div>
+
                 <div className="card-property-details">
                   <h3>{property.type}</h3>
                   <p className="address">{property.location}</p>
@@ -309,6 +333,11 @@ export default function Search() {
             ))}
           </div>
         </section>
+
+        {/* FOOTER */}
+        <footer className="contact-footer">
+          © 2025 Deluxe Estates · Crafted with elegance
+        </footer>
 
       </main>
     </div>

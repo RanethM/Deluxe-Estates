@@ -338,6 +338,7 @@ select:focus {
 
 .card-property-details h3 {
   margin-top:10px;
+  margin-bottom: 8px;
   font-size: 1.55rem;
   font-weight: 600;
   color: #0f1f2e;
@@ -356,18 +357,15 @@ select:focus {
 .address {
   font-size: 13px;
   color: #0e162e;
-  margin: 0;
-  position:relative; 
-  bottom:30px;
+  margin: 0 0 12px 0;
 }
 
 .desc {
   font-size: 0.95rem;
   color: #5f6b75;
   line-height: 1.5;
-  position: relative;
-  bottom:55px;
-  text-align: left ;
+  text-align: left;
+  margin: 12px 0 0 0;
 }
 
 /* ===============================
@@ -375,9 +373,9 @@ select:focus {
 ================================ */
 /* HEART ICON AT TOP-RIGHT OF CARD */
 .heart-icon {
-  position: absolute;       /* relative to property-card */
-  top: 1px;
-  right: -290px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
   cursor: pointer;
   font-size: 1.6rem;
   color: #000000aa;
@@ -386,7 +384,7 @@ select:focus {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  z-index: 10; /* above everything */
+  z-index: 10;
 }
 
 .heart-icon:hover {
@@ -406,21 +404,13 @@ select:focus {
   white-space: nowrap;
 }
 
-
-.heart-label {
-  font-size: 0.5rem;
-  margin-top: 4px;
-  color: #211f1f;
-  text-shadow: 0 0 3px rgba(114, 112, 112, 0.5);
-  white-space: nowrap;
-}
-
 /* ===============================
    RESPONSIVE
 ================================ */
 @media (max-width: 768px) {
   .property-card {
     flex-direction: column;
+    gap: 16px;
   }
 
   .property-gallery {
@@ -429,6 +419,11 @@ select:focus {
 
   .property-image {
     height: 220px;
+  }
+
+  .heart-icon {
+    top: 12px;
+    right: 12px;
   }
 
   .top-section {
@@ -444,6 +439,20 @@ select:focus {
 @media (max-width: 480px) {
   h1 {
     font-size: 1.8rem;
+  }
+
+  .property-card {
+    padding: 16px;
+  }
+
+  .heart-icon {
+    top: 10px;
+    right: 10px;
+    font-size: 1.3rem;
+  }
+
+  .heart-label {
+    font-size: 0.4rem;
   }
 }
 
