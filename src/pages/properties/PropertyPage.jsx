@@ -7,7 +7,6 @@ export default function PropertyDetails() {
   const { id } = useParams();
   const property = propertyData.properties.find((p) => p.id === id);
   const [currentIndex, setCurrentIndex] = useState(0);
-  window.scrollTo(0, 0); 
 
   if (!property) return <p className="no-results">Property not found!</p>;
 
