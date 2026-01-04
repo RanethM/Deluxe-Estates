@@ -1,13 +1,16 @@
+// Header Component
+// Displays hero video, title, subtitle, and call-to-action button for home page
 import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
 
+// Home page hero section with video background
 const Header = () => {
   const base = import.meta.env.BASE_URL || '/'
   return (
     <div className="home-header">
 
-      {/* Background Video */}
+      {/* Background video for visual impact */}
       <video
         className="bg-video"
         autoPlay

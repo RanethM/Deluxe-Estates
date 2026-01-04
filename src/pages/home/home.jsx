@@ -1,10 +1,11 @@
+// Home Page Component
+// Displays hero banner, property slider, and benefits section
 import Header from '../../components/Header/Header'; 
 import './home.css'
 import propertiesData from '../../data/properties.json';
 import PropertySlider from '../../components/PropertySlider/PropertySlider';  
 
-
-
+// Main homepage layout
 const HomePage = () => {
   const properties = propertiesData.properties;
   const base = import.meta.env.BASE_URL || '/';
@@ -12,11 +13,10 @@ const HomePage = () => {
   return (
     <>
     <div className="homepage">
-      {/* Header Section */}
-      {/* Displays the site header */}
-
+      {/* Navigation header */}
       <Header /> 
       
+      {/* Hero banner section */}
       <section className="hero">
       <div className="hero-content">
         <h1>Homes That Match Your Lifestyle</h1>

@@ -1,9 +1,12 @@
+// Search & Properties Page Component
+// Allows users to search/filter properties and manage favourites with drag-and-drop
 import propertyData from './data/properties.json';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './search.css';
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 
+// Search page with filtering, favourites management, and drag-and-drop
 export default function Search() {
   const [filteredProperties, setFilteredProperties] = useState(propertyData.properties);
   const [favourites, setFavourites] = useState([]);

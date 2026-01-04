@@ -1,8 +1,9 @@
-
-
+// About Us Page Component
+// Displays company story, team members, and values with animations
 import React, { useEffect } from "react";
 import "./About.css";
 
+// Company information and team showcase
 export default function AboutUs() {
   const teamMembers = [
     { name: "Jordan Bergendhal", role: "Founder & CEO", image: "images/people/jordan-bergendahl.jpg" },

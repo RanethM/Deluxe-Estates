@@ -1,8 +1,11 @@
+// Property Details Page Component
+// Displays full property information with image gallery, map, and floor plan
 import propertyData from '../../data/properties.json';
 import { useParams } from 'react-router-dom';
 import { useState } from 'react';
 import './PropertyPage.css';
 
+// Single property page with image slider and details
 export default function PropertyDetails() {
   const { id } = useParams();
   const property = propertyData.properties.find((p) => p.id === id);

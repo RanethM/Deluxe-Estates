@@ -1,3 +1,7 @@
+/* Property Details Page Styles
+   Includes image gallery, property information, floor plan, and map
+*/
+
 /* === General Page Styling === */
 .property-page {
   max-width: 1200px;
@@ -7,6 +11,7 @@
   color: #333;
 }
 
+/* Navigation breadcrumb */
 .breadcrumb a {
   color: #2ea734; /* rich green */
   text-decoration: none;
@@ -15,6 +20,7 @@
   display: inline-block;
 }
 
+/* Main content layout */
 .property-main {
   display: flex;
   flex-wrap: wrap;

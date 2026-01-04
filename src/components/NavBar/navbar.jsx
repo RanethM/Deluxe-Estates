@@ -1,12 +1,16 @@
+// Navigation Bar Component
+// Displays logo, site title, and navigation links across all pages
 import React from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
 
+// Top navigation with branding and page links
 export default function Navbar() {
   return (
     <header className='header'>
       <div className="header-box">
 
+        {/* Logo and branding */}
         <Link to='/HomePage' className='link-list'>
         <div className='logo-container'>
           <img src='./webLogo.png' alt='Deluxe Estates Logo' className='web-logo' />

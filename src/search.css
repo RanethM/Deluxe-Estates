@@ -1,5 +1,9 @@
+/* Search & Properties Page Styles
+   Includes layout, forms, property cards, favourites section, and responsive design
+*/
+
 /* ===============================
-   GENERAL STYLING
+   GENERAL STYLING - Base typography and spacing
 ================================ */
 body,main {
   font-family: "Poppins", sans-serif;
@@ -24,7 +28,7 @@ p {
 }
 
 /* ===============================
-   PAGE LAYOUT
+   PAGE LAYOUT - Overall page structure
 ================================ */
 .page-wrapper {
   min-height: 100vh;

@@ -1,3 +1,7 @@
+/* Navigation Bar Styles
+   Branding, navigation links, and interactive hover effects
+*/
+
 .header {
     background-color: transparent;
     margin: 0;
@@ -5,6 +9,7 @@
     display: inline;
 }
 
+/* Navigation container with gradient background */
 .header-box {
     display: flex;
     justify-content: space-between;

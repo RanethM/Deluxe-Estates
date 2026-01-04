@@ -1,3 +1,7 @@
+/* Hero Header Component Styles
+   Video background, text overlay, and call-to-action styling
+*/
+
 .home-header {
     height: 80vh;
     width: 97%;
@@ -10,7 +14,7 @@
     align-items: center;
 }
 
-/* Background Video */
+/* Background Video - Full screen video */
 .bg-video {
     position: absolute;
     top: 50%;

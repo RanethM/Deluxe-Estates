@@ -1,18 +1,26 @@
+/* Property Slider Component Styles
+   Auto-rotating carousel with smooth transitions and image overlay
+*/
+
 .slider-section{ 
   background-color: transparent;
   box-shadow: none;
 }
+
+/* Slider container with clipping */
 .slider-container {
   width: 100%;          /* take full width of parent */
   overflow: hidden;
   border-radius: 15px;  /* keeps nice rounded corners */
 }
 
+/* Slider track animation */
 .slider-track {
   display: flex;
   transition: transform 0.8s ease-in-out;
 }
 
+/* Individual slide card */
 .slider-card {
   min-width: 100%;      /* ensures one slide at a time */
   position: relative;

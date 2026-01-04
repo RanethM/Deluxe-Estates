@@ -1,9 +1,13 @@
+/* Home Page Styles
+   Includes hero section, property slider, benefits content, and footer
+*/
+
 body{
   background-color: #f6f7f4;
   overflow-x: hidden; 
 }
 
-/* Hero Section */
+/* Hero Section - Main banner with title and description */
 .hero {
   display: flex;
   align-items: center;
@@ -14,6 +18,7 @@ body{
   min-height: 180px;
 }
 
+/* Hero text content centered */
 .hero-content {
   max-width: 900px;
   width: 100%;

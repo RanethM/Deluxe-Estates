@@ -1,4 +1,8 @@
-/* ================= PAGE ================= */
+/* Contact Us Page Styles
+   Includes contact form, company information, and background imagery
+*/
+
+/* ================= PAGE - Full page layout ================= */
 
 .contact-page {
   min-height: 100vh;
@@ -7,7 +11,7 @@
   font-family: "Inter", sans-serif;
 }
 
-/* Dark overlay */
+/* Dark overlay - Creates contrast for form readability */
 .contact-overlay {
   position: absolute;
   inset: 0;

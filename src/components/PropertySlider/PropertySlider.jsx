@@ -1,10 +1,14 @@
+// Property Slider Component
+// Auto-rotating carousel displaying featured properties with descriptions
 import React, { useState, useEffect } from 'react';
 import './PropertySlider.css';
 
+// Carousel component that cycles through property listings
 const PropertySlider = ({ properties }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const base = import.meta.env.BASE_URL || '/';
 
+  // Auto-rotate slides every 4 seconds
   useEffect(() => {
     if (!properties || properties.length === 0) return;
 

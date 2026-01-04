@@ -1,4 +1,8 @@
-/* ================= GLOBAL ================= */
+/* About Us Page Styles
+   Includes hero section, company story, team section, and feature highlights
+*/
+
+/* ================= GLOBAL - Page-wide styling ================= */
 
 .about-page {
   font-family: "Inter", sans-serif;
@@ -15,9 +19,7 @@ section{
    background-color: #f6f7f4;
 }
 
-
-
-/* ================= HERO ================= */
+/* ================= HERO - Main banner section ================= */
 
 .about-hero {
   height: 80vh;

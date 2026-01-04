@@ -1,11 +1,14 @@
+// Contact Us Page Component
+// Displays contact form and business information
 import React from "react";
 import "./Contact.css";
 
+// Contact page with form and company details
 export default function Contact() {
   return (
     <div className="contact-page">
 
-      {/* Background Overlay */}
+      {/* Background overlay for visual effect */}
       <div className="contact-overlay" />
 
       {/* MAIN CONTENT */}

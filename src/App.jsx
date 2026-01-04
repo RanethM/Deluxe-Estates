@@ -1,3 +1,5 @@
+// Main application component
+// Handles routing and page navigation
 import { useState } from 'react'
 import Navbar from './components/NavBar/navbar'
 import { Routes, Route } from 'react-router-dom'
@@ -8,13 +10,12 @@ import Search from './search'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropertyPage from "./pages/properties/PropertyPage";
 
-
+// App component with all route definitions
 function App() {
-
-
   return (
     <>
       <Navbar />
+      {/* Define all application routes */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/HomePage" element={<HomePage />} />
@@ -26,6 +27,5 @@ function App() {
     </>
   )
 }
-
 
 export default App
